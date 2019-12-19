@@ -31,6 +31,11 @@ import PackageDescription
 let package = Package(
     name: "FSPagerView",
     dependencies : [],
-    //exclude: [],
-    path: "Sources"
+    exclude: [],
+    targets: [
+        .target(
+            name: "FSPagerView",
+            path: "Source")
+    ],
+    swiftLanguageVersions: [.v4, .v5]
 )
