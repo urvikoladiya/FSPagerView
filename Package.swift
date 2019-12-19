@@ -31,6 +31,6 @@ import PackageDescription
 let package = Package(
     name: "FSPagerView",
     dependencies : [],
-    exclude: [],
+    //exclude: [],
     path: "Sources"
 )
