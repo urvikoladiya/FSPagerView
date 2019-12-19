@@ -31,4 +31,5 @@ let package = Package(
     name: "FSPagerView",
     dependencies : [],
     exclude: []
+    path: "Sources"
 )
