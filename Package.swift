@@ -37,5 +37,5 @@ let package = Package(
             name: "FSPagerView",
             path: "Source")
     ],
-    swiftLanguageVersions: [.v4, .v5]
+    swiftLanguageVersions: [.v5]
 )
